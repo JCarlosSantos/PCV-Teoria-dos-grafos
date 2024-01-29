@@ -2,11 +2,31 @@
 
 # Descrição
 
-No momento consta nesse projeto, um algoritmo desenvolvido para receber bancos de dados em formato de matriz (onde se espera que trate-se da representação de distâncias de cidades), e organizar em uma lista de vetores.
+No momento consta nesse projeto, um algoritmo desenvolvido para receber bases de dados em formato de matriz (onde se espera que trate-se da representação de distâncias de cidades), e organizar em uma lista de vetores.
+
+# Instalação
+
+Instale o Python com versão minima 3.11.2, disponivel em: https://www.python.org/downloads/.
+Baixe os arquivos do repositorio e salve em uma pasta de sua preferência, com o python instalado, abra a pasta de origem do projeto no cmd, em seguida, no prompt de comando, digite o comando: `python main.py` para executar o algoritmo.
 
 # Como usar
 
-Baixe os arquivos e salve em uma pasta de sua preferência
+O algoritmo principal inicialmente realiza apenas a leitura das [bases de dados](https://people.sc.fsu.edu/~jburkardt/datasets/tsp/tsp.html) fornecidas para solução do problema, são elas ATT48, DANTZIG42, FRI26, GR17 e P01.
+
+Abaixo, veja um exemplo de um dos base de dados sem tratamento:
+
+![image](https://github.com/JCarlosSantos/PCV-Teoria-dos-grafos/assets/134893104/25342bf0-7a26-4c7c-8a5c-1d65f4705bee)
+
+Os nomes das bases de dados que serão lidas estão inclusas na lista `file_names`, que podem ser alteradas ao gosto do usuário:
+![image](https://github.com/JCarlosSantos/PCV-Teoria-dos-grafos/assets/134893104/0f224f3c-f1e3-4882-a1f5-cf18d6af3721)
+
+Ao executar o algoritmo, no terminal serão exibidos os valores das bases de dados que estarão formatados para lista de vetores. 
+
+Exemplo de base de dados após tratamento:
+
+![image](https://github.com/JCarlosSantos/PCV-Teoria-dos-grafos/assets/134893104/bd48a91a-bf55-4250-8151-0a49748b7c32)
+
+
 
 # Licença
 
