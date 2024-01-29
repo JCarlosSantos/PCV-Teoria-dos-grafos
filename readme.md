@@ -18,13 +18,16 @@ O algoritmo principal lê bases de dados fornecidas para a solução do Problema
 
 Exemplo de base de dados sem tratamento:
 
-![Exemplo de Base de Dados](url_da_imagem)
+![image](https://github.com/JCarlosSantos/PCV-Teoria-dos-grafos/assets/134893104/ed20a7f9-9c1e-424a-9e17-3924db048308)
+
 
 Os nomes das bases de dados estão na lista `file_names` e podem ser alterados pelo usuário. Ao executar o algoritmo, os resultados serão exibidos no terminal.
 
+![image](https://github.com/JCarlosSantos/PCV-Teoria-dos-grafos/assets/134893104/aac60646-225f-4f19-93a9-91bb0a99a0c3)
+
 Exemplo de base de dados após tratamento:
 
-![Exemplo de Base de Dados Tratada](url_da_imagem)
+![image](https://github.com/JCarlosSantos/PCV-Teoria-dos-grafos/assets/134893104/b405c899-b137-406a-803d-f4536159e6f6)
 
 ## Licença
 
