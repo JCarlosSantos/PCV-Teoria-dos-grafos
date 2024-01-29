@@ -6,7 +6,7 @@ No momento consta nesse projeto, um algoritmo desenvolvido para receber bancos d
 
 # Como usar
 
-
+Baixe os arquivos e salve em uma pasta de sua preferência
 
 # Licença
 
