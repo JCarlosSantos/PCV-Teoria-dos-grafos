@@ -1,6 +1,7 @@
 def prim(distance_matrix):
     num_cities = len(distance_matrix)
     MST = []
+    parent = [i for i in range(num_cities)]
     visited = [False] * num_cities
     distances = [float('inf')] * num_cities
 
@@ -18,10 +19,11 @@ def prim(distance_matrix):
         visited[min_vertex] = True
 
         if min_vertex != start_vertex:
-            MST.append((min_vertex, min_vertex))
+            MST.append((parent[min_vertex], min_vertex))
 
         for v in range(num_cities):
             if not visited[v] and distance_matrix[min_vertex][v] < distances[v]:
                 distances[v] = distance_matrix[min_vertex][v]
+                parent[v] = min_vertex
 
     return MST
