@@ -1,8 +1,6 @@
 from utils import show_timer
 import itertools
 import time
-import math
-
 
 def route_length(route, distance_matrix):
     total_distance = 0
@@ -22,7 +20,6 @@ def brute_force(distance_matrix):
     shortest_length = float('inf')
     start_time = time.time()
     update_interval = 1 
-    total_permutations = math.factorial(num_cities)
     
     for perm in itertools.permutations(range(num_cities)):
         current_length = route_length(perm, distance_matrix)
@@ -40,4 +37,4 @@ def brute_force(distance_matrix):
             show_timer(start_time)
             update_interval += 1
 
-    return shortest_route, shortest_length, total_permutations
+    return shortest_route, shortest_length
